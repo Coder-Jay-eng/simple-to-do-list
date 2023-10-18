@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("./img/brett.jpg");
+}
+
+h1 {
+    color: #333;
+}
+
+.todo-container {
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #005F79;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
